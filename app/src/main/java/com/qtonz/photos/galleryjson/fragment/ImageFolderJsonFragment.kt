@@ -10,7 +10,6 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.qtonz.photos.R
-import com.qtonz.photos.gallery.adapter.ImageAdapter
 import com.qtonz.photos.galleryjson.activity.ImageDetailJsonActivity
 import com.qtonz.photos.galleryjson.adapter.ImageJsonAdapter
 import kotlinx.coroutines.CoroutineScope
