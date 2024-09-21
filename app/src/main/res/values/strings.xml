@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Viewpager</string>
+    <string name="image">image</string>
+    <string name="image_">Image</string>
+    <string name="no_image_path_available">No image path available</string>
+    <string name="delete">delete</string>
+    <string name="gallery">gallery</string>
+    <string name="viewpager">viewpager</string>
+    <string name="todo">todo</string>
+    <string name="jsongallery">JsonGallery</string>
+</resources>

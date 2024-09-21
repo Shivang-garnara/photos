@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/_20dp"
+    android:paddingEnd="@dimen/_20dp">
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:id="@+id/imgMovie"
+        android:layout_width="@dimen/_100dp"
+        android:layout_height="@dimen/_100dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvMovieName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_20dp"
+        android:text="moviename"
+        android:textSize="@dimen/_20sp"
+        app:layout_constraintStart_toEndOf="@+id/imgMovie"
+        app:layout_constraintTop_toTopOf="@+id/imgMovie" />
+
+    <ImageView
+        android:id="@+id/imgRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10dp"
+        android:contentDescription="@string/todo"
+        android:src="@android:drawable/btn_star"
+        app:layout_constraintStart_toStartOf="@+id/tvMovieName"
+        app:layout_constraintTop_toBottomOf="@+id/tvMovieName" />
+
+    <TextView
+        android:id="@+id/tvRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10dp"
+        android:text="10"
+        android:textSize="@dimen/_20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgRating"
+        app:layout_constraintStart_toEndOf="@+id/imgRating"
+        app:layout_constraintTop_toTopOf="@+id/imgRating" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10rate"
+        android:textSize="@dimen/_20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgRating"
+        app:layout_constraintStart_toEndOf="@+id/tvRate"
+        app:layout_constraintTop_toTopOf="@+id/imgRating" />
+
+    <TextView
+        android:id="@+id/tvLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10dp"
+        android:text="english"
+        app:layout_constraintStart_toStartOf="@+id/imgRating"
+        app:layout_constraintTop_toBottomOf="@+id/imgRating" />
+
+    <TextView
+        android:id="@+id/tvMovieTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10dp"
+        android:text="_2h_10min_36sec"
+        app:layout_constraintStart_toStartOf="@+id/tvLanguage"
+        app:layout_constraintTop_toBottomOf="@+id/tvLanguage" />
+</androidx.constraintlayout.widget.ConstraintLayout>
