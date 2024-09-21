@@ -5,7 +5,7 @@ import org.json.JSONArray
 import org.json.JSONObject
 import java.io.File
 
-object RecentImagesJsonHelper{
+object RecentImagesJsonHelper {
 
     private const val FILE_NAME = "recent_images.json"
 
