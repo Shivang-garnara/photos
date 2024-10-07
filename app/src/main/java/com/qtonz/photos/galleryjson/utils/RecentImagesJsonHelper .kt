@@ -38,7 +38,6 @@ object RecentImagesJsonHelper {
             val jsonObject = jsonArray.getJSONObject(i)
             imagePaths.add(jsonObject.getString("path"))
         }
-
         return imagePaths
     }
 }
